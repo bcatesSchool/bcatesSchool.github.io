@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Brileigh Cates' Professional Website"
+  navbar:
+    left:
+      - href: opening.qmd
+        text: Home
+      - research.qmd
+        text: Research Interests & Projects
+      - CV.qmd
+      - ContactInfo.qmd
+        text: Contact Information
+
+resources:
+  - BCatesCV.pdf
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,10 @@
+---
+title: "CV"
+format: html
+resources: 
+  - BCatesCV.pdf
+---
+
+\<div class="d-flex justify-content-center" style="margin-bottom: 20px;"\> \<a href="BCatesCV.pdf" download class="btn btn-outline-primary btn-sm rounded-pill"\> Download CV \</a\> \</div\>
+
+{{< pdf BCatesCV.pdf >}}

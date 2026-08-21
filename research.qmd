@@ -1,0 +1,30 @@
+---
+title: "Research Interests & Projects"
+format: html
+---
+
+My core research interests span methodology, machine learning, and biological applications, with a strong foundation in spatial and temporal statistics. I am driven by a curiosity to explore new types of research and apply quantitative approaches to diverse scientific fields. While I have extensive experience working with probabilistic frameworks like Hidden Markov Models (HMMs), I view these methodologies as versatile tools rather than rigid boundaries. The projects below highlight the types of computational challenges I enjoy solving, bridging domains like neuroimaging, clinical biostatistics, and regional data science.
+
+## Project 1: Benchmarking and Detecting Latent Sleep States from fMRI Data
+
+*Status: Active Research and Thesis Extension*
+
+This project focuses on developing a pipeline to benchmark and detect latent sleep states from functional neuroimaging data, expanding on work from my master's thesis. The main objective is to evaluate how well Hidden Markov Models can capture these subtle state transitions. To best represent the state clusters in the modeling process, I am evaluating several different model types, e.g., standard models, mixed models, hidden semi-Markov models, and multi-level models.
+
+Once the states are decoded, the resulting sequences undergo two separate filtering processes with the objective of identifying an optimal processing pipeline. The data passes through a series of custom non-linear and signal-specific sequence filters designed to leverage the unique properties of fMRI data. After filtering, the decoded data is mapped to ground truth labels using template-based matching and a optimized mapping framework based on minimized misclassification costs.
+
+To address the challenge of mapping states when ground truth is completely unavailable, I developed an unsupervised validation index. This framework extracts features into a multi-metric vector that tracks macro-level state dynamics. The index then assigns an ordinal value to each state based on the subject's latent wakefulness continuum, mapping the baseline state to wakefulness and the highest value to deep sleep. I am currently scaling this pipeline to test performance on independent datasets and verify the train and test sets used in the original support vector machine approach we are benchmarking against.
+
+## Project 2: Dynamic Pharmacokinetic Modeling for Traumatic Brain Injury
+
+*Status: Manuscript in Internal Review*
+
+This research evaluates sudden and delayed release pharmacokinetic models applied to longitudinal blood biomarkers in patients with traumatic brain injuries. The core objective is to analyze how model-derived features relate to long-term clinical outcomes, specifically mortality, the Glasgow Outcome Scale-Extended, and overall quality of life at multiple post-injury time points.
+
+Our team aimed to demonstrate that multi-day dynamic data, specifically tracking markers up to five days post-injury, provides significantly better predictive ability than a single static biomarker reading. Having demonstrated the superiority of multi-day data, we found that dynamic modeling allows for the detection of complex temporal trends that traditional models miss. This finding indicates that standard, static release assumptions may not accurately represent the clinical trajectories of these patients. We then compared sudden and delayed release models to evaluate how well their respective metrics, such as initial release dynamics, predict patient outcomes.
+
+## Project 3: Spatial Clustering of Regional Tourism Data
+
+*Status: Initial Formulation*
+
+This initiative focuses on the spatial analysis of regional tourism data across the provinces of Turkey. The project adapts localized spatial econometrics and clustering methodologies similar to frameworks used in recent literature to analyze provincial tourism dependencies in regions like Sichuan, China. The goal is to account for spatial constraints and geographic dependencies to reveal underlying macro-level configurations that standard non-spatial clustering methods miss.
