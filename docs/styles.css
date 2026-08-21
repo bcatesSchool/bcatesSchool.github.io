@@ -1,0 +1,44 @@
+/* css styles */
+/* Container to center and control the image area */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Force the image wrapper to be a fixed circle size */
+.profile-image {
+  width: 400px;  /* Adjust this to change the overall size of your photo */
+  height: 400px; /* Keep this exactly equal to the width for a perfect circle */
+  overflow: hidden;
+  border-radius: 50%; /* This cuts off the square corners into a circle */
+  border: 3px solid #dee2e6; /* Optional: adds a subtle professional border */
+}
+
+/* Force the actual image to fill the circle without stretching */
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops the photo into a square shape before making it a circle */
+  object-position: center; /* Centers the focus of the photo */
+}
+
+/* Disable clicking, hover states, and pointer arrows on the navbar title */
+.navbar-brand, 
+.navbar-title, 
+a.navbar-brand {
+  pointer-events: none;    /* Disables all click behavior */
+  cursor: default;         /* Prevents the cursor from turning into a clicking hand */
+  text-decoration: none;   /* Keeps the text looking like a clean header */
+}
+
+/* Center the navigation bar links */
+.navbar-collapse {
+  justify-content: center !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
