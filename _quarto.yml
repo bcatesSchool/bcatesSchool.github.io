@@ -4,23 +4,23 @@ project:
 website:
   title: "Brileigh Cates' Professional Website"
   navbar:
+    logo-href: opening.qmd
     left:
       - href: opening.qmd
-        text: Home
-      - research.qmd
-        text: Research Interests & Projects
-      - CV.qmd
-      - ContactInfo.qmd
-        text: Contact Information
-
+        text: "Home"
+      - href: research.qmd
+        text: "Research Interests & Projects"
+      - href: CV.qmd
+        text: "CV"
+      - href: ContactInfo.qmd
+        text: "Contact Information"
+        
 resources:
   - BCatesCV.pdf
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
 

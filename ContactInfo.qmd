@@ -3,22 +3,25 @@ title: "Contact Info"
 format: html
 ---
 
-Brileigh Cates
+Department of Statistics | University of California, Berkeley
 
-Email: brileigh_cates\@berkeley.edu
+------------------------------------------------------------------------
 
-Office: 3160-16 Gateway Building, University of California, Berkeley
+### Quick Contact
 
-Mailing Address:
+- **Email:** [brileigh_cates\@berkeley.edu](mailto:brileigh_cates@berkeley.edu)
+- **Office:** 3160-16 Gateway Building (3rd Floor)
+- **Telephone:** [510-642-2781](tel:510-642-2781)
+- **Fax:** 510-642-7892
 
-Brileigh Cates
+------------------------------------------------------------------------
 
-Department of Statistics
+### Mailing Address:
 
-3160-16 Gateway Building
-
-2300 Hearst Ave
-
-Berkeley, CA 94720-3860
-
-T: 510-642-2781 \| F: 510-642-7892
+::: {style="text-align: center;"}
+Brileigh Cates  
+Department of Statistics  
+3160-16 Gateway Building  
+2300 Hearst Ave  
+Berkeley, CA 94720-3860  
+:::
