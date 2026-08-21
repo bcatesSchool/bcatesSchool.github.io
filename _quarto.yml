@@ -4,9 +4,9 @@ project:
 website:
   title: "Brileigh Cates' Professional Website"
   navbar:
-    logo-href: opening.qmd
+    logo-href: index.qmd
     left:
-      - href: opening.qmd
+      - href: index.qmd
         text: "Home"
       - href: research.qmd
         text: "Research Interests & Projects"
